@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>LR 13 jQuery</title>
+	<link href="style.css" rel="stylesheet">
+	<script src = "jquery-3.3.1.min.js"></script>
+	<script type = "text/javascript">
+		$(document).ready(function()
+		{
+		$("p").parents("div").attr("style", "background-color : red");
+		});
+	</script>
+
+	<script>
+		$(":button").click(function()
+		{
+			var msg = $("textarea").val();
+			//$("div#chatReflection").text(msg);	
+			alert(msg);		
+		});
+	</script>
+</head>
+<body>
+	<!--
+	Завдання №1:
+	9.	Вибрати «div», в якому є параграф і додати до нього 
+	(до «div») атрибут «style» зі значенням «background-color: red».
+	-->
+	
+
+	<div id = "containsParagraph">
+		<p>Red background</p>
+	</div>
+	<div id = "doesntContainParagraph"></div>
+	<br><br><br><br><br>
+
+	<!-- 
+	Завдання №2:
+	4.	Реалізувати чат. Текст вводиться в textarea, при натисненні на 
+	кнопку; час відправлення і повідомлення додаються в кінець чату.
+	-->
+
+	<button>Message</button>
+	<div id = "chatReflection"></div>
+	<textarea name="" id="" cols="76" rows="5"></textarea>
+
+
+
+	
+</body>
+</html>

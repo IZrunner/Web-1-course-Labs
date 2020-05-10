@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>LR 14 jQuery</title>
+	<link href="style.css" rel="stylesheet">
+	<script src = "jquery-3.3.1.min.js"></script>
+	<script type = "text/javascript">
+
+		/*
+		9.	Зробіть два поля введення, в які користувач буде вводити ширину і висоту. 
+		Зробіть блок, який буде змінювати свої розміри на введені.
+		*/
+
+		alert("HELLO");
+
+		$(document).ready(function()
+		{
+			$('body').append('<input>').attr(
+			{
+			type: 'number'
+			id: 'width'
+			});
+
+			$('body').append('<input>').attr(
+			{
+			type: 'number'
+			id: 'height'
+			});
+		});
+
+		var btn = $('body').append('<button>').attr(
+		{
+			type: 'submit'
+			value: 'addDiv'
+		});
+
+		btn.click($('body').append('<div>').attr(
+		{
+			width: '#width.val()'
+			height: '#height.val()'
+			background-color: 'black'
+			position: 'relative'
+			left: '100px'
+			top: '100px'
+			float: 'left'
+		}));
+			
+
+	</script>
+
+	
+</head>
+<body>
+	
+
+
+
+	
+</body>
+</html>

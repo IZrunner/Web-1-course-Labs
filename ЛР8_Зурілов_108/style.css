@@ -1,0 +1,118 @@
+div#frame{
+	width: 100%;
+	height: 2000px;
+	border: 8px solid #00CC00;
+	padding: 40px 40px 30px 40px;
+	box-sizing: border-box;
+}
+
+div#blueInRedLargeOne{
+	border: 8px solid #0033CC;
+	width: calc(25% - 10px);
+	height: 760px;
+	float: left;
+	box-sizing: border-box;
+	margin-right: 10px;
+}
+
+div#blueInRedLargeTwo{
+	padding: 20px 20px 20px 20px;
+	border: 8px solid #0033CC;
+	width: 75%;
+	height: 760px;
+	float: left;
+	box-sizing: border-box;
+}
+
+div#yellowInBlueTop{
+	width: 100%;
+	height: 500px;
+	border: 8px solid #FFFF00;
+	box-sizing: border-box;
+	margin-bottom: 55px;
+
+}
+
+div#yellowInBlueBot{
+	width: 100%;
+	height: 115px;
+	border: 8px solid #FFFF00;
+	box-sizing: border-box;
+}
+
+div.redOne{
+	padding: 20px 20px 20px 15px;
+	border: 8px solid #FF0000;
+	width: 100%;
+	height: 300px;
+	box-sizing: border-box;
+	margin-bottom: 60px;
+}
+
+div.redSecond{
+	width: 100%;
+	height: 170px;
+	box-sizing: border-box;
+	border: 8px solid #FF0000;
+	margin-bottom: 85px;
+	padding:30px 15px 30px 15px;
+}
+
+div.redLarge{
+	padding: 50px 55px 50px 45px;
+	width: 100%;
+	height: 900px;
+	box-sizing: border-box;
+	border: 8px solid #FF0000;
+	margin-bottom: 55px;
+}
+
+div.redLast{
+	padding: 15px;
+	border: 8px solid #FF0000;
+	width: 100%;
+	height: 290px;
+	box-sizing: border-box;
+	
+}
+
+div.blueInRedOne{
+	border: 8px solid #0033CC;
+	width: 25%;
+	height: 220px;
+	float: left;
+	box-sizing: border-box;
+	padding: 20px 20px 15px 20px;
+}
+div.yellowInBlueTop{
+	height: 80px;
+	width: 100%;
+	margin-bottom: 10px;
+	border: 8px solid #FFFF00;
+	box-sizing: border-box;
+
+}
+
+div.yellowInBlueBot{
+	height: 65px;
+	width: 100%;
+	border: 8px solid #FFFF00;
+	box-sizing: border-box;
+}
+
+div.blueMid{
+	border: 8px solid #0033CC;
+	width: 50%;
+	height: 220px;
+	float: left;
+	box-sizing: border-box;
+}
+
+
+div.blueInRedSec{
+	border: 8px solid #0033CC;
+	width: 25%;
+	height: 85px;
+	float: left;
+	box-sizing: border-box;
+}

@@ -1,0 +1,29 @@
+#containsParagraph
+{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	float: left;
+	border-color: blue;
+	border-style: dotted;
+}
+
+#doesntContainParagraph
+{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 150px;
+	background-color: black;
+	border-color: blue;
+	border-style: dotted;
+}
+
+#chatReflection
+{
+	width: 550px;
+	height: 550px;
+	position: relative;
+	border-color: black;
+	border-style: solid;
+}
